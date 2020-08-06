@@ -1,7 +1,8 @@
 public class Application {
     public static void main(String[] args) {
         //Those values are used if no valid arguments are in args
-        String parityCheckMatrixString = "{{0,1,1,1,1,0,0,0},{1,0,1,1,0,1,0,0},{1,1,0,1,0,0,1,0},{1,1,1,0,0,0,0,1}}";   //So far only Wolfram Alpha syntax is supported
+        //String parityCheckMatrixString = "{{0,1,1,1,1,0,0,0},{1,0,1,1,0,1,0,0},{1,1,0,1,0,0,1,0},{1,1,1,0,0,0,0,1}}";   //So far only Wolfram Alpha syntax is supported
+        String parityCheckMatrixString = "{{1,1,1,1,0},{0,1,0,0,1}}";   //So far only Wolfram Alpha syntax is supported
         int limit = 2;                         //the upper bound of possible values (e.g. for F2 = {0, 1}, limit = 2)
         ParityCheck parityCheckObject;
 
